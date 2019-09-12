@@ -12,4 +12,4 @@
  Public Domain 
  
  ## Read me
- This is a clone repository of https://github.com/nothings/stb  .Convenient to use with github
+ This is a clone repository of http://www.lonesock.net/soil.html  .Convenient to use with github
