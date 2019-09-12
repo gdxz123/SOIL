@@ -10,3 +10,6 @@
 
 ## License: 
  Public Domain 
+ 
+ ## Read me
+ Convenient to use with github
