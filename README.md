@@ -12,4 +12,6 @@
  Public Domain 
  
  ## Read me
- This is a clone repository of http://www.lonesock.net/soil.html  .Convenient to use with github
+ 1、This is a clone repository of http://www.lonesock.net/soil.html  .Convenient to use with github
+ 
+ 2、This repository support mac os to make install library
