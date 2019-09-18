@@ -47,7 +47,6 @@
 ld: symbol(s) not found for architecture x86_64
 
  You need to add Cocoa.framework to fix these errors. project TARGETS -> Build Phases -> Link Binary With Libraries -> add 
- 
  Cocoa.framework and run your project. it's allright
 
    
