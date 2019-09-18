@@ -1,4 +1,4 @@
-# SOIL
+# SOIL (Build SOIL.a in Mac OS and Use SOIL in XCode)
 
 ## Introduction:
 
