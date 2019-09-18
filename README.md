@@ -26,3 +26,29 @@
    when you make install the code. You can open Carbon.h and commente the code "#include <CarbonSound/CarbonSound.h>" and 
    
    "#include <NavigationServices/NavigationServices.h>" 
+   
+   4、I use SQIL with XCode, when I run my OpenGL project, there are the error:
+   
+   Undefined symbols for architecture x86_64:
+  "_CFBundleCreate", referenced from:
+      _query_DXT_capability in libSOIL.a(SOIL.o)
+  "_CFBundleGetFunctionPointerForName", referenced from:
+      _query_DXT_capability in libSOIL.a(SOIL.o)
+  "_CFRelease", referenced from:
+      _query_DXT_capability in libSOIL.a(SOIL.o)
+  "_CFStringCreateWithCString", referenced from:
+      _query_DXT_capability in libSOIL.a(SOIL.o)
+  "_CFURLCreateWithFileSystemPath", referenced from:
+      _query_DXT_capability in libSOIL.a(SOIL.o)
+  "___CFConstantStringClassReference", referenced from:
+      CFString in libSOIL.a(SOIL.o)
+  "_kCFAllocatorDefault", referenced from:
+      _query_DXT_capability in libSOIL.a(SOIL.o)
+ld: symbol(s) not found for architecture x86_64
+
+ You need to add Cocoa.framework to fix these errors. project TARGETS -> Build Phases -> Link Binary With Libraries -> add 
+ 
+ Cocoa.framework and run your project. it's allright
+
+   
+   
