@@ -17,8 +17,12 @@
  2、This repository support mac os to make install library
 
  3、If you met error like 
+ 
  Error: In file included from /Users/thomasuster/haxe/haxe_libraries/nme-toolkit/6.2.0/haxelib/sdl/src/video/cocoa/SDL_cocoakeyboard.m:31:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h:34:10: fatal error: 'CarbonSound/CarbonSound.h' file not found
 #include <CarbonSound/CarbonSound.h>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-   when you make install the code. You can open Carbon.h and commente the code "#include <CarbonSound/CarbonSound.h>" and "#include <NavigationServices/NavigationServices.h>" 
+         
+   when you make install the code. You can open Carbon.h and commente the code "#include <CarbonSound/CarbonSound.h>" and 
+   
+   "#include <NavigationServices/NavigationServices.h>" 
